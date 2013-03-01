@@ -9,7 +9,9 @@ Hugo
 
 2. If you have more than three bulbs, add them by number to the bulbs list in the third line. 
 
-	Example: property bulbs : {1, 2, 3, 4, 5, 6, 7, 8}
+````applescript
+property bulbs : {1, 2, 3, 4, 5, 6, 7, 8}
+````
 
 3. Save and exit Hugo.scpt. Your done with setting up. 
 
@@ -39,10 +41,12 @@ Things to try:
 
 Control 1 bulb instead of all bulbs:
 
-	_hugo's setBulb(0, myNewScene) <-- Change 0 to 1 to control a single bulb
+````applescript	
+_hugo's setBulb(1, myNewScene) -- Change 0 to a bulb number to control a single bulb
+````
 	
 Generate new scene strings:
 
-	Use the app of your choice to set the lights, then use getState.scpt to spit out the copy and paste-friendly string for your scenes or bulb settings.
+Use the app of your choice to set the lights, then use getState.scpt to spit out the copy and paste-friendly string for your scenes or bulb settings.
 	
 Have a look at the other scripts for other ideas and ways to use Hugo!
