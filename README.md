@@ -31,7 +31,7 @@ set myNewScene to the quoted form of "{\"on\": true,\"bri\": 120,\"hue\": 14000,
 
 ````applescript
 _hugo's setBulb(0, myNewScene)
-''''
+````
 
 6. Run the new script to see your scene!
 
