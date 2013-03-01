@@ -1,9 +1,9 @@
 Hugo
 ====
 
-Applescript functions for controlling Phillips Hue lightbulbs.
+*Applescript functions for controlling Phillips Hue lightbulbs.*
 
-Initial Setup:
+**Initial Setup:**
 
 1. Open Hugo.scpt and enter your bridge IP and app key on the first and second line. 
 
@@ -13,11 +13,11 @@ Initial Setup:
 
 3. Save and exit Hugo.scpt. Your done with setting up. 
 
-Quick Start: 
+**Quick Start: **
 
 1. Open up the Scripts folder and open sceneEnergize.scpt as an example. 
 
-2. Adjust the file alias on the first line to correctly point to the hugo.scpt file (you will need to do this for each script).
+2. Adjust the file alias on the first line to correctly point to the hugo.scpt file (**you will need to do this for each script**).
 
 3. Copy the line starting with "set energize..." and paste it so it is duplicated on the next line.
 
@@ -33,6 +33,12 @@ Quick Start:
 
 Things to try: 
 
+Control 1 bulb instead of all bulbs:
+
 	_hugo's setBulb(0, myNewScene) <-- Change 0 to 1 to control a single bulb
+	
+Generate new scene strings:
 
 	Use the app of your choice to set the lights, then use getState.scpt to spit out the copy and paste-friendly string for your scenes or bulb settings.
+	
+Have a look at the other scripts for other ideas and ways to use Hugo!
