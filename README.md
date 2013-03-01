@@ -23,11 +23,15 @@ Hugo
 
 4. Edit the new line to look like this:
 
-	set myNewScene to the quoted form of "{\"on\": true,\"bri\": 120,\"hue\": 14000,\"xy\": [0.3151,0.3252],\"sat\": 132,\"ct\": 155,\"transitiontime\": 10}"
+````applescript
+set myNewScene to the quoted form of "{\"on\": true,\"bri\": 120,\"hue\": 14000,\"xy\": [0.3151,0.3252],\"sat\": 132,\"ct\": 155,\"transitiontime\": 10}"
+````
 
 5. Change the setBulb function to call your new scene.
 
-	_hugo's setBulb(0, myNewScene)
+````applescript
+_hugo's setBulb(0, myNewScene)
+''''
 
 6. Run the new script to see your scene!
 
