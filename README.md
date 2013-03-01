@@ -23,7 +23,7 @@ Hugo
 
 3. Copy the line starting with "`set energize...`" and paste it so it is duplicated on the next line.
 
-4. Edit the new line to look like this:
+4. Edit the new line to look like this (or adjust each parameter as you desire):
 
    ```applescript
    set myNewScene to the quoted form of "{\"on\": true,\"bri\": 120,\"hue\": 14000,\"xy\": [0.3151,0.3252],\"sat\": 132,\"ct\": 155,\"transitiontime\": 10}"
