@@ -13,7 +13,7 @@ Hugo
 
 3. Save and exit Hugo.scpt. Your done with setting up. 
 
-**Quick Start: **
+**Quick Start:**
 
 1. Open up the Scripts folder and open sceneEnergize.scpt as an example. 
 
