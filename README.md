@@ -5,7 +5,7 @@ Hugo
 
 ### Initial Setup:
 
-1. Open `Hugo.scpt` and enter your bridge IP and app key on the first and second line. 
+1. Open `Hugo.scpt` in the scripts directory and enter your bridge IP and app key on the first and second line. 
 
 2. If you have more than three bulbs, add them by number to the bulbs list in the third line. 
 
